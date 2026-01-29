@@ -6,6 +6,11 @@ import dotenv from 'dotenv';
 
 import json from './public/characters.json' with { type: "json" };
 
+// Added by Duncan
+//require('dotenv').config();
+//const token = process.env.GITHUB_TOKEN;
+// End of addition
+
 let systemMessage = json[4].description;
 let page = json[4].page;
 
